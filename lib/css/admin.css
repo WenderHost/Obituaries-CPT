@@ -1,0 +1,26 @@
+.border-left{border-left: 1px solid #000; padding-left: 4px}
+.false{background-color: #ffc1c1}
+.green{color: #090}
+.datepicker{width: 100px; font-size: 11px}
+.form-table{line-height: 26px}
+.form-table th{font-weight: bold}
+input.large{width: 300px}
+input.small{width: 70px}
+.red{color: #900}
+.rightfields{float: right; width: 300px; margin-left: 8px}
+.rightfields label{font-weight: bold; width: 120px; display: block; float: left}
+
+
+#remove{}
+
+.select-list{clear: both; height: 120px}
+.select-list li{text-align: center; display: block; float: left; margin-right: 10px; font-weight: bold;}
+.select-list li img{border: 5px solid #eee; cursor: pointer; margin-bottom: 4px; width: 150px; height: 63px}
+.select-list li img:hover{border-color: #0E0}
+.select-list li img.selected{border-color: #0C0; box-shadow: 5px 5px 2px #666; -webkit-box-shadow: 2px 2px 3px #999; -moz-box-shadow: 2px 2px 3px #999}
+
+.service-table, .survivor-table, .preceedor-table{border: 1px solid #9f9f9f; border-radius: 5px; background: #eee; margin-bottom: 8px}
+.service-table th, .service-table td, .survivor-table th, .survivor-table td, .preceedor-table th, .preceedor-table td{line-height: 20px; padding: 4px}
+
+textarea.medium{width: 300px; height: 60px}
+.true{background-color: #c8ffc1}
