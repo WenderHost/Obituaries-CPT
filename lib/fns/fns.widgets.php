@@ -249,28 +249,22 @@ class ObitsCPT_Widget_Search extends WP_Widget {
 	 */
 	function ObitsCPT_Widget_Search() {
 
-		/* Set the widget prefix. */
-		$this->prefix = hybrid_get_prefix();
-
-		/* Set the widget textdomain. */
-		$this->textdomain = hybrid_get_textdomain();
-
 		/* Set up the widget options. */
 		$widget_options = array(
 			'classname' => 'search',
-			'description' => esc_html__( 'Specify which post_type this widget will search.', $this->textdomain )
+			'description' => esc_html__( 'Specify which post_type this widget will search.', 'obitscpt' )
 		);
 
 		/* Set up the widget control options. */
 		$control_options = array(
 			'width' => 525,
 			'height' => 350,
-			'id_base' => "{$this->prefix}-search-post-types",
+			'id_base' => "obitscpt-search-post-types",
 			'post_type' => 'all'
 		);
 
 		/* Create the widget. */
-		$this->WP_Widget( "{$this->prefix}-search-post-types", esc_attr__( 'Search Post Type', $this->textdomain ), $widget_options, $control_options );
+		$this->WP_Widget( "obitscpt-search-post-types", esc_attr__( 'Search Post Type', 'obitscpt' ), $widget_options, $control_options );
 	}
 
 	/**
